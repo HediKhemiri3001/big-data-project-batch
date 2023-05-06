@@ -45,7 +45,7 @@ This visualization is then read and offered to clients using a web interface bui
  And like that if everything was done properly, if you check your mongodb database that's in the container called mongodb, you should find a collection called countries with alot of documents.
  
  Thanks for reading.
- 
- KHEMIRI Mohamed Hedi
- DALI HASSEN Naim
- LAMINE Hatem
+ ## Made by:
+  - KHEMIRI Mohamed Hedi 
+  - DALI HASSEN Naim
+  - LAMINE Hatem
