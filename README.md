@@ -30,10 +30,12 @@ This visualization is then read and offered to clients using a web interface bui
   > `./start-hadoop.sh`
   
   Now that hadoop is started, we need to run the Hadoop Map Reduce Job, **Make sure that mongodb is running and is in the hadoop bridge network**
+  
  5. Compile this repository using Maven:
   > `mvn clean compile assembly:single`
   
  You should have obtained a .jar file in the target directory of your local project.
+ 
  6. Move that jar to the master container:
  > ` docker cp path/to/jar/file.jar hadoop-master:/root/file.jar`
  
