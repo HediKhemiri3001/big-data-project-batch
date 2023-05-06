@@ -3,6 +3,10 @@ In this school project, We needed to make a project that follows a lambda archit
 For this project we used Hadoop for the batch processing, and Spark coupled with Kafka for the stream processing, finally saving visualizations to a MongoDB database.
 This visualization is then read and offered to clients using a web interface built using NextJS.
 
+## What is this repo?
+This repo contains a Map Reduce job that has a csv file as input. This csv file contains the number of covid cases per country per day, and so this map reduce serves as a way to calculate the monthly number of covid cases per day, so to then save this information in a MongoDB database. 
+
+
 
 ## To run this repository:
   1. Pull the image containing dockerfiles :
